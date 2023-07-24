@@ -11,9 +11,6 @@ The Job Recommender System is an intelligent tool designed to assist job seekers
 - Web-based Interface: Offers a user-friendly web-based interface powered by Streamlit, allowing users to interact with the recommender system seamlessly.
 - Scalable: Designed to handle large job datasets efficiently, making it suitable for various job markets and industries.
 
-### Web App
-
-Try out the Job Recommender System using the web app [here](https://example-webapp-url.com). 
 ### Installation
 
 To run the Job Recommender System locally, follow these steps:
@@ -27,7 +24,7 @@ To run the Job Recommender System locally, follow these steps:
 ### Usage
 
 1. Launch the application using the command mentioned above.
-2. Enter a job title or a brief description in the provided text input field.
+2. Select a job title or a brief description in the provided text input field.
 3. Click on the "Get Job Recommendations" button to receive a list of relevant job titles based on your input.
 4. Explore the recommended jobs and find potential opportunities that match your interests and skills.
 
@@ -47,3 +44,6 @@ The Job Recommender System uses the following libraries:
 
 For any questions or feedback, feel free to reach out to bonifacechosen100@gmail.com.
 
+### Screenshots
+
+[streamlit-app-2023-07-25-00-07-79.webm](https://github.com/bechosen-spec/Job-Recommender-System/assets/65294466/d827f18b-bef0-4589-9960-e999f7bf5929)
