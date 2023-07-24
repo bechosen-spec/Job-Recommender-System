@@ -20,7 +20,7 @@ To run the Job Recommender System locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required packages by running `pip install streamlit pandas scikit-learn joblib`.
-3. Download the pre-trained TF-IDF vectorizer and cosine similarity matrix from [insert link to your pre-trained models if available].
+3. Download the pre-trained TF-IDF vectorizer and cosine similarity matrix from [insert link to your pre-trained models if available](https://drive.google.com/drive/folders/1-8CP0QCu7oMR5JwVClsPITI1fkTZn42Z?usp=drive_link).
 4. Update the file paths in the `app.py` script to point to the downloaded model files.
 5. Run the app using `streamlit run app.py`.
 
@@ -46,8 +46,4 @@ The Job Recommender System uses the following libraries:
 ### Contact
 
 For any questions or feedback, feel free to reach out to bonifacechosen100@gmail.com.
-
-### Screenshots (Optional)
-
-[You can include some screenshots of the web interface or any visual representation of the recommendation results.]
 
