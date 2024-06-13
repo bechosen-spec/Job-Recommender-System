@@ -42,7 +42,7 @@ The Job Recommender System uses the following libraries:
 
 ### Contact
 
-For any questions or feedback, feel free to reach out to bonifacechosen100@gmail.com.
+For any questions or feedback, feel free to reach out to saeedmaiga7@gmail.com or bonifacechosen100@gmail.com.
 
 ### Screenshots
 
