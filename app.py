@@ -8,12 +8,12 @@ from sklearn.metrics.pairwise import linear_kernel
 tdif = joblib.load('/path/to/tfidf_vectorizer.pkl')
 cosine_sim = joblib.load('/path/to/cosine_similarity.pkl')
 
-# Load the job dataset (assuming you have the 'dice_com-job_us_sample.csv' file)
+# Load the job datasets (assuming you have the 'dice_com-job_us_sample.csv' file)
 df1 = pd.read_csv('/content/gdrive/MyDrive/job dataset/dice_com-job_us_sample.csv')
 df1 = df1.dropna()
 indices = pd.Series(df1.index, index=df1['jobtitle']).drop_duplicates()
 
-# Define the job recommendation function
+# Define the job recommendation function.
 def get_recommendation(title, cosine_sim=cosine_sim):
     idx = indices[title]
     sim_scores = list(enumerate(cosine_sim[idx]))
@@ -22,7 +22,7 @@ def get_recommendation(title, cosine_sim=cosine_sim):
     tech_indices = [i[0] for i in sim_scores]
     return df1['jobtitle'].iloc[tech_indices]
 
-# Create the Streamlit app
+# Create the Streamlit app.
 def main():
     st.title('Job Recommender System')
 
