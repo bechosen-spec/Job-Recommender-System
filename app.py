@@ -13,7 +13,7 @@ df1 = pd.read_csv('/content/gdrive/MyDrive/job dataset/dice_com-job_us_sample.cs
 df1 = df1.dropna()
 indices = pd.Series(df1.index, index=df1['jobtitle']).drop_duplicates()
 
-# Define the job recommendation function.
+# Defined the job recommendation function.
 def get_recommendation(title, cosine_sim=cosine_sim):
     idx = indices[title]
     sim_scores = list(enumerate(cosine_sim[idx]))
